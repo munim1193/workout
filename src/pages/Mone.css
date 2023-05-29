@@ -1,0 +1,16 @@
+.body{
+    background: url("../app-background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+  }
+  
+.m11{
+    background-image: url("../m1.jpg");
+    background-size: cover;
+    color: white;
+  }
+.m22{
+    background-image: url("../m2.jpg");
+    background-size: cover;
+   }

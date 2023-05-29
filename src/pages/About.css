@@ -1,0 +1,44 @@
+body{
+  background: url("../app-background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+details>summary span.icon {
+  width: 24px;
+  height: 24px;
+  transition: all 0.3s;
+  
+}
+
+
+details[open] summary span.icon {
+  transform: rotate(180deg);
+}
+
+summary {
+  display: flex;
+  cursor: pointer;
+  width: 50%;
+  height: 50px;
+  font-size: 30px;
+  background-color: rgba(0, 0, 0, 0.4);
+  border-style: outset;
+  margin: 0 auto;
+}
+
+summary::-webkit-details-marker {
+  display: none;
+
+}
+.h1{
+  text-align: center;
+  margin: 0 auto;
+}
+.ans{
+  background-color: rgba(0, 0, 0, 0.8);
+  width: 40%;
+  font-size: 20px;
+  margin: 0 auto;
+  width: 50%;
+}

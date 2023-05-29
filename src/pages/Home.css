@@ -1,0 +1,138 @@
+.body{
+  background: url("D:\fyp\workout-training\src\app-background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+.img{
+  width: 80%;
+  height: 400px
+}
+.workout{
+  width: 70%;
+  margin: 0 auto;
+}
+.body1{
+  background: rgba(0, 0, 0, 0.4);
+  color: white;
+}
+.button{
+  width: 15.5%;
+  padding: 15px;
+  font-size: 25px;
+}
+.h1{
+  width: 50%;
+  font-size: 4rem;
+}
+.p1{
+  font-size: 20px;
+  text-align: justify;
+  padding-left: 1cm;
+  padding-right: 1cm;
+
+}
+.grid-container{
+  display: inline-block;
+  background: rgba(0, 0, 0, 0.4);
+
+}
+.c1{
+  width: 70%;
+  padding: 15px;
+  float: left;
+  padding-left: 0.75cm;
+}
+.c2{
+  width: 30%;
+  padding: 15px;
+  float: left;
+  font-size: 20px;
+  
+}
+.flex-container {
+  display: flex;
+  flex-flow: row wrap;
+}
+.flex-container >div{
+  margin: 20px;
+  text-align: center;
+  font-size: 30px;
+  width: 30%;
+  height: 20rem;
+  border-radius: 10px;
+  padding-top: 7cm;
+  border-style: groove;
+}
+
+/* Responsive layout - makes a one column layout instead of a two-column layout */
+@media (max-width: 800px) {
+  .flex-container {
+    flex-direction: column;
+    width: 100%;
+  }
+  .flex-container >div{
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    padding-top: 7cm;
+    width: 95%;
+    height: 15rem;
+    border-radius: 10px;
+  }
+  
+}
+.m1{
+  background-image: url("D:\fyp\workout-training\src\m1.jpg");
+  background-size: cover;
+}
+.m2{
+  background-image: url("D:\fyp\workout-training\src\m2.jpg");
+  background-size: cover;
+}
+.m3{
+  background-image: url("D:\fyp\workout-training\src\m3.jpg");
+  background-size: cover;
+}
+.m4{
+  background-image: url("D:\fyp\workout-training\src\m4.png");
+  background-size: cover;
+}
+.m5{
+  background-image: url("D:\fyp\workout-training\src\m5.jpg");
+  background-size: cover;
+}
+.m6{
+  background-image: url("D:\fyp\workout-training\src\m1.jpg");
+  background-size: cover;
+}
+
+.module-background{
+  background: rgba(0, 0, 0, 0.7);
+  border-radius: 5px;
+  text-decoration: none;
+  color: white;
+  border-style: groove;
+  font-size: 27px;
+}
+.module-background:hover{
+  background-color: white;
+  color: black; 
+}
+.blank-text{
+  color: transparent;
+  font-family: Arial, Helvetica, sans-serif;
+  -webkit-text-stroke-width:2px ;
+  -webkit-text-stroke-color:white ;
+}
+.paddinglr{
+  padding-left: 20%;
+  padding-right: 20%;
+  text-align: center;
+}
+
+.input {
+  width: 100%;
+}
+

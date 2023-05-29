@@ -1,0 +1,17 @@
+.bodym4{
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+    
+  }
+  img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 80%;
+  }
+  .bodym44{
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding-left: 15vw;
+    padding-right: 15vw; 
+  }

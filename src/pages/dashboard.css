@@ -1,0 +1,44 @@
+.dashboard {
+  background: rgba(0, 0, 0, 0.3);
+  display: flex; 
+  gap: 1rem; 
+  padding: 1rem;
+}
+
+.dashboard--card_header {
+  height: 150px;
+  min-width: 200px;
+  background: #333;
+  display: grid;
+  place-items: center;
+}
+
+.dashboard--card_header h2 {
+  text-transform: uppercase;
+}
+
+.dashboard--card_footer {
+  background: rgba(0, 0, 0, 0.8);
+  padding: 1rem;
+}
+
+.dashboard--card_footer p {
+  margin: 0;
+  margin-bottom: 0.5rem;
+}
+
+.dashboard--card_footer button {
+  width: 100%;
+  font-size: 1rem;
+  padding: 0.3rem;
+  cursor: pointer;
+  background: red;
+  color: white;
+  border: none;
+  transition: 100ms transform;
+  outline: none;
+}
+
+.dashboard--card_footer button:active {
+  transform: translateY(3px);
+}

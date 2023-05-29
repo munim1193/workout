@@ -1,0 +1,84 @@
+.bodyfour{
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
+  }
+  .flex-containerone {
+    display: flex;
+    flex-flow: row wrap;
+  }
+  .flex-containerone >div{
+    margin: 20px;
+    text-align: center;
+    font-size: 30px;
+    width: 30%;
+    height: 20rem;
+    border-radius: 10px;
+    padding-top: 7cm;
+    border-style: groove;
+  }
+  
+  /* Responsive layout - makes a one column layout instead of a two-column layout */
+  @media (max-width: 800px) {
+    .flex-containerone {
+      flex-direction: column;
+      width: 100%;
+    }
+    .flex-containerone >div{
+      margin: 10px;
+      text-align: center;
+      line-height: 75px;
+      font-size: 30px;
+      padding-top: 7cm;
+      width: 95%;
+      height: 15rem;
+      border-radius: 10px;
+    }
+}
+.m41{
+    background-image: url("./m41.jpg");
+    background-size: cover;
+  }
+.m42{
+    background-image: url("./m42.jpg");
+    background-size: cover;
+  }
+.m43{
+    background-image: url("./m43.jpg");
+    background-size: cover;
+  }
+.m44{
+    background-image: url("./m44.jpg");
+    background-size: cover;
+  }
+.m45{
+    background-image: url("./m45.jpg");
+    background-size: cover;
+  }
+.m46{
+    background-image: url("./m46.jpg");
+    background-size: cover;
+  }
+.m47{
+    background-image: url("./m47.jpg");
+    background-size: cover;
+  }
+.m48{
+    background-image: url("./m48.jpg");
+    background-size: cover;
+  }
+.m49{
+    background-image: url("./m49.jpg");
+    background-size: cover;
+  }
+.m410{
+    background-image: url("./m410.jpg");
+    background-size: cover;
+  }
+.m411{
+    background-image: url("./m411.jpg");
+    background-size: cover;
+  }
+.m412{
+    background-image: url("./m412.jpg");
+    background-size: cover;
+  }
