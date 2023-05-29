@@ -10,7 +10,7 @@ export default function Login() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const res =  await axios.post(`${process.env.REACT}/api/login`, { identity: email, password });
+      const res =  await axios.post(`${process.env.REACT_APP_BACKEND}/api/login`, { identity: email, password });
       console.log(res.data)
       localStorage.setItem("token", res.data.token)
       localStorage.setItem("role", res.data.role)
