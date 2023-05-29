@@ -1,5 +1,5 @@
 .body{
-  background: url("D:\fyp\workout-training\src\app-background.jpg");
+  background: url("/src/app-background.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
@@ -84,27 +84,27 @@
   
 }
 .m1{
-  background-image: url("D:\fyp\workout-training\src\m1.jpg");
+  background-image: url("/src/m1.jpg");
   background-size: cover;
 }
 .m2{
-  background-image: url("D:\fyp\workout-training\src\m2.jpg");
+  background-image: url("/src/m2.jpg");
   background-size: cover;
 }
 .m3{
-  background-image: url("D:\fyp\workout-training\src\m3.jpg");
+  background-image: url("/src/m3.jpg");
   background-size: cover;
 }
 .m4{
-  background-image: url("D:\fyp\workout-training\src\m4.png");
+  background-image: url("/src/m4.png");
   background-size: cover;
 }
 .m5{
-  background-image: url("D:\fyp\workout-training\src\m5.jpg");
+  background-image: url("/src/m5.jpg");
   background-size: cover;
 }
 .m6{
-  background-image: url("D:\fyp\workout-training\src\m1.jpg");
+  background-image: url("/src/m1.jpg");
   background-size: cover;
 }
 
