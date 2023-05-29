@@ -16,7 +16,7 @@ export default function Register() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      await fetch("http://localhost:4000/api/register", {
+      await fetch(`${process.env.REACT_APP_BACKEND}/api/register`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

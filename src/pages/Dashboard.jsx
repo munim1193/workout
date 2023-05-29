@@ -27,7 +27,7 @@ const Dashboard = () => {
   const [users, setUsers] = useState(null);
 
   const deleteUser = async (id) => {
-    await axios.delete(`http://localhost:4000/api/admin/user/${id}`, {
+    await axios.delete(`${process.env.REACT_APP_BACKEND}/api/admin/user/${id}`, {
       headers: { Authorization: `Bearer ${token}` },
     });
     const uUsers = users.filter(itm => itm._id !== id);
@@ -37,7 +37,7 @@ const Dashboard = () => {
 
   useEffect(() => {
     const getUsers = async () => {
-      const res = await axios.get("http://localhost:4000/api/admin/users", {
+      const res = await axios.get(`${process.env.REACT_APP_BACKEND}/api/admin/users`, {
         headers: { Authorization: `Bearer ${token}` },
       });
       setUsers(res.data);
