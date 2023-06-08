@@ -59,7 +59,7 @@ export default function Login() {
             flexDirection: "column",
           }}
         >
-          <label>Email:</label>
+          <label>Email</label>
           <input
             type="text"
             value={email}
@@ -73,7 +73,7 @@ export default function Login() {
               background: "none",
             }}
           />
-          <label>Password:</label>
+          <label>Password</label>
           <input
             type="password"
             value={password}
@@ -91,7 +91,7 @@ export default function Login() {
             className="text-center"
             style={{
               backgroundColor: "none",
-              color: "#4CAF50",
+              color: "white",
               padding: "10px",
               borderRadius: "5px",
               border: "1px solid #4CAF50",
@@ -105,6 +105,7 @@ export default function Login() {
             style={{
               textAlign: "center",
               fontSize: "14px",
+              
             }}
           >
             Don't have an account?

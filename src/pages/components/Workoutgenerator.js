@@ -619,7 +619,7 @@ export default function Workoutgenerator() {
       </h2>
       <form>
         <label>
-          Weight (kg):
+          Weight (kg)
           <input
             type="number"
             value={weight}
@@ -629,7 +629,7 @@ export default function Workoutgenerator() {
         <br />
         <br />
         <label>
-          Height (cm):
+          Height (cm)
           <input
             type="number"
             value={height}
@@ -639,7 +639,7 @@ export default function Workoutgenerator() {
         <br />
         <br />
         <label>
-          Age:
+          Age
           <input
             type="number"
             value={age}
@@ -649,7 +649,7 @@ export default function Workoutgenerator() {
         <br />
         <br />
         <label>
-          Gender:
+          Gender
           <select value={gender} onChange={(e) => setGender(e.target.value)}>
             <option value="male">Male</option>
             <option value="female">Female</option>
@@ -658,7 +658,7 @@ export default function Workoutgenerator() {
         <br />
         <br />
         <label>
-          Fitness Goals:
+          Fitness Goals
           <select
             value={fitnessGoals}
             onChange={(e) => setFitnessGoals(e.target.value)}
@@ -670,7 +670,7 @@ export default function Workoutgenerator() {
         <br />
         <br />
         <label>
-          Fitness Level:
+          Fitness Level
           <select
             value={fitnessLevel}
             onChange={(e) => setFitnessLevel(e.target.value)}

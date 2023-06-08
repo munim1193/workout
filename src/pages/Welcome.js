@@ -4,7 +4,7 @@ import logo from './logo.png';
 import "./Welcome.css"
 export default function Welcome() {
   return (
-    <div className="body">
+    <div className="body-w">
       <div className="Styles.App ">
       <header className="App-header">
       <img src={logo} className={"logo-p"} alt="my logo" />

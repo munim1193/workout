@@ -14,7 +14,6 @@ function App() {
   const [hip, setHip] = useState("");
   const [result, setResult] = useState("");
   const [weight, setWeight] = useState("");
-  const [activityLevel, setActivityLevel] = useState("sedentary");
   const [bodyType, setBodyType] = useState("");
   const [message, setMessage] = useState("");
 
@@ -57,11 +56,6 @@ function App() {
         }
       }
     }
-  };
-
-  const calculateMacros = () => {
-    // Calculate macros based on weight, height, age, gender, and activity level
-    // ...
   };
 
   const calculateBmi = () => {
@@ -235,70 +229,8 @@ function App() {
     );
   };
 
-  const renderBMacros = () => {
-    return (
-      <div>
-        <h1>Body Macros Calculator</h1>
-        <form onSubmit={calculateMacros}>
-          <label>
-            Weight (in kg):
-            <input
-              type="number"
-              value={weight}
-              onChange={(e) => setWeight(e.target.value)}
-            />
-          </label>
-          <br />
-          <br />
-          <label>
-            Height (in cm):
-            <input
-              type="number"
-              value={height}
-              onChange={(e) => setHeight(e.target.value)}
-            />
-          </label>
-          <br />
-          <br />
-          <label>
-            Age:
-            <input
-              type="number"
-              value={age}
-              onChange={(e) => setAge(e.target.value)}
-            />
-          </label>
-          <br />
-          <br />
-          <label>
-            Gender:
-            <select value={gender} onChange={(e) => setGender(e.target.value)}>
-              <option value="male">Male</option>
-              <option value="female">Female</option>
-            </select>
-          </label>
-          <br />
-          <br />
-          <label>
-            Activity Level:
-            <select
-              value={activityLevel}
-              onChange={(e) => setActivityLevel(e.target.value)}
-            >
-              <option value="sedentary">Sedentary</option>
-              <option value="lightlyActive">Lightly Active</option>
-              <option value="moderatelyActive">Moderately Active</option>
-              <option value="veryActive">Very Active</option>
-              <option value="extraActive">Extra Active</option>
-            </select>
-          </label>
-          <br />
-          <br />
-          <button type="submit">Calculate Macros</button>
-        </form>
-      </div>
-    );
-  };
+  
+  
 
   const renderBType = () => {
     return (
@@ -351,9 +283,7 @@ function App() {
       case "BMR":
         return renderBMR();
       case "B_FAT":
-        return renderBFat();
-      case "B_MACROS":
-        return renderBMacros();
+        return renderBFat();      
       case "B_TYPE":
         return renderBType();
       default:
@@ -410,12 +340,6 @@ function App() {
               style={{ padding: "20px" }}
             >
               BODY FAT
-            </button>
-            <button
-              onClick={() => setMessage("B_MACROS")}
-              style={{ padding: "20px" }}
-            >
-              BODY MACROS
             </button>
             <button
               onClick={() => setMessage("B_TYPE")}
